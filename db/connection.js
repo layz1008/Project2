@@ -2,9 +2,7 @@ import mongoose from "mongoose"
 
 mongoose.set('returnOriginal', false);
 
-mongoose.connect("mongodb://127.0.0.1:27017/project2").catch((err) => {
-    console.log(`Connection Error to MongoDb: ${err.message}`);
-});
+
 
 const url = process.env.MONGO_URL || 'mongodb://127.0.0.1:27017/character'
 
