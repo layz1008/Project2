@@ -7,6 +7,7 @@ let Character = new Schema({
   species: String,
   gender: String,
   status: String,
+  image: String,
 });
 
 export default mongoose.model("characters", Character);
