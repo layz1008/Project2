@@ -43,3 +43,27 @@ https://project2-production-7023.up.railway.app/characters
 
 
 JavaScript, MongoDB, Express, mongoose, node.js, node-fetch, cors
+
+
+## Routes
+
+Project routes
+
+GET https://project2-production-7023.up.railway.app/characters
+
+
+
+GET https://project2-production-7023.up.railway.app/characters/:id
+
+
+POST https://project2-production-7023.up.railway.app/characters
+
+
+
+PUT https://project2-production-7023.up.railway.app/characters/:id
+
+
+
+DELETE https://project2-production-7023.up.railway.app/characters/:id
+
+
