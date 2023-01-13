@@ -1,13 +1,12 @@
-import mongoose from "mongoose"
+import mongoose from "mongoose";
 
-const Schema = mongoose.Schema
+const Schema = mongoose.Schema;
 
 let Character = new Schema({
-    "name": String,
-    "species": String,
-    "gender": String,
-    "age": Number,
-   
-})
+  name: String,
+  species: String,
+  gender: String,
+  status: String,
+});
 
-export default mongoose.model("characters", Character)
+export default mongoose.model("characters", Character);
